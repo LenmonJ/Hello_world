@@ -1,0 +1,15 @@
+没有桌面登陆
+git config --global user.name "Your Name"
+git config --global user.email "Youremail@example.com"
+桌面登陆过
+git config user.name
+下载代码到本地
+git clone 云端地址 本地路径（为空）
+本地项目和服务器端项目关联
+git remote add orgin 项目目录(云端地址)
+上传代码到云端
+1 cd切换到当前目录
+2 git pull orgin master 		pull代码到本地
+3 git add.  将本地项目工作去的所有文件添加到暂存区
+4 git commit -m "注释" 将暂存区的文件添加到本地的代码库
+5 git push -u orgin master
